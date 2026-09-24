@@ -1,0 +1,8 @@
+build/
+build_stale*/
+build_partial*/
+.pio/
+__pycache__/
+*.pyc
+sdkconfig.old
+build_diag/

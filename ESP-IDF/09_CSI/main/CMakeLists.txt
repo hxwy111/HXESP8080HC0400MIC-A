@@ -1,0 +1,1 @@
+idf_component_register(SRCS "main.c" "bsp_i2c.c" "camera_capture.c" "camera_display.cpp" "mipi_power.c" "ov5647_camera.c" INCLUDE_DIRS "." REQUIRES driver esp_driver_cam esp_driver_isp esp_lcd esp_mm esp_timer esp_hw_support)
